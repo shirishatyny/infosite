@@ -1,38 +1,95 @@
-.App {
+.imageClass{
+  height: 250px;
+  width: 400px;
+}
+.App{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: black;
   color: white;
+  width: 400px;
+  height: 600px;
+  margin-left: 460px;
+  margin-top: 20px;
+}
+.buttonClass1{
+  background-color: rgb(40, 93, 229);
+  width:110px;
+  height: 28px;
+  margin-right: 46px;
+  color: white;
+  border-radius: 3px;
+}
+.buttonClass{
+  width:110px;
+  margin-left: 48px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+
+.p1{
+text-align: left;
+margin: 10px 10px 10px 50px;
+}
+.p2{
+width: 280px;
+margin-left: 26px;
+}
+.headerClass{
+  text-align: left;
+  margin-left: 12px;
+}
+.footerClass{
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  background-color:black;
+  margin-left: 140px;
+  font-size: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:600px){
+
+  .App{
+    height:2000px;
+    margin: 0px;
+    font-size: 18px;
+    width: 100vw;
   }
-  to {
-    transform: rotate(360deg);
+  .titleClass{
+    margin-top: 50px;
+    font-size: 30px;
   }
+    .name1Class{
+      font-size: 28px;
+    }
+    .infClass{
+      font-size: 19px;
+    }
+    
+  
+  .footerClass{
+    margin-top: 98px;
+  }
+  .buttons{
+    margin-top: 27px;
+    
+  }
+  
+}
+
+
+
+.nameClass{
+
+margin-top: 10px;
+}
+.name1Class{
+
+color: yellow;
+margin-bottom: 10px;
+
 }
